@@ -177,4 +177,5 @@ class DataAugmentaion(object):
                 sr_aug = aug[ridx](sentence, p = p, repetition=1)
                 aug_list.append(sr_aug)
         return aug_list
-      
+    
+    
